@@ -1,0 +1,9 @@
+root@896cf839cf9a:/# git clone https://{YOUR_PERSONAL_TOKEN}@github.com/{YOUR_USERNAME}/alx-pre_course.git                  
+Cloning into 'alx-pre_course'...
+echo "# TshabalalaNjabulo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TshabalalaNjabulo/TshabalalaNjabulo.git
+git push -u origin main
